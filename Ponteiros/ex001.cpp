@@ -13,7 +13,7 @@ int main(){
     //Lendo variaveis
     cin >> a;
 
-    printf("Endereco de a: \n", a)
+    printf("Endereco de a: \n", a);
     
     //Variaveis armazenam valores
     int b = 10;
