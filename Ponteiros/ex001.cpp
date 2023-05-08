@@ -1,20 +1,17 @@
-#include <bits/stdc++.h>
-
-using namespace std;
+#include <stdio.h>
+#include <ctype.h>
+#include <cmath>
+#include <cstring>
 
 int main(){
     //variavel
     int a = 20; // existe um endereco esse processo 
 
     //imprimindo o valor de uma variavel
-    cout << "Valor de a: " << a << endl;
-    // a diferenca de uma variavel e um ponteiro, e que uma varivel estao em um endereco de memoria armazenando um valor, e os ponteiros eles armazenam posicoes da memoria
+    printf("Valor de a: %d \n", a);
+    // a diferenca de uma variavel e de um ponteiro, e que uma varivel esta em um endereco de memoria armazenando um valor, e os ponteiros eles armazenam posicoes da memoria
+    printf("Endereco de a: %d \n", &a);
 
-    //Lendo variaveis
-    cin >> a;
-
-    printf("Endereco de a: \n", a);
-    
     //Variaveis armazenam valores
     int b = 10;
 
@@ -24,13 +21,14 @@ int main(){
     //Ponteiro recebendo a posicao na memoria da variavel b
     ponteiro = &b;
 
-    cout << "Valor de a: " << b << endl;
+    //Imprimindo o valor de uma variavel
+    printf("Valor de b: %d \n", b);
 
     //* pode ser lido como "Conteudo apontado por "
 
     *ponteiro = 40;
 
-    cout << "Valor de b: " << b<< endl;
+    printf("Valor de b: %d ", b); 
 
 
     // Variavel

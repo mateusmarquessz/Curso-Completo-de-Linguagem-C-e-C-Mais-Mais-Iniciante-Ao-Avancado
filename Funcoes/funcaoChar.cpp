@@ -5,17 +5,16 @@
 
 
 // funcao Char
-char RetornaLetra(){
+char RetornaLetra(){ 
     //dando valor para o return de "x"
     return 'x';
 }
 int main(){
-    // Definindo caracteres
 
+    // Definindo variavel
     char letra;
 
-    // char recebendo valor de uma funcao
-
+    // variavel char = funcao
     letra = RetornaLetra();
 
     //Imprimindo  novo valor;

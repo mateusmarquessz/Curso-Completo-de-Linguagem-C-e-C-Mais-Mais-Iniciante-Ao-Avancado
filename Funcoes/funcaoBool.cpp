@@ -7,7 +7,7 @@
 // definindo funcao Bool
 bool retornaBool(){
 
-    //Dando valor para a funcao
+    //Dando valor para return da funcao no caso true
     return true;
 }
 
@@ -17,7 +17,7 @@ int main(){
     // definindo variavel
     bool variavelBool;
 
-    // dando o valor da variavel
+    // dando o valor da variavel = funcao
     variavelBool = retornaBool();
 
 
