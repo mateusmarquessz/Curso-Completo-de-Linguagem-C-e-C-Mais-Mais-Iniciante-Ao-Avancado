@@ -6,7 +6,7 @@
 
 int* alocaVetor(int tamanho){
 
-    //criando um ponteiro auxiliar
+    //criando um  ponteiro auxiliar
     int *aux;
     //alocacao dinamica de memoria, malloc, sizeof pega o tamanho da memoria no caso de int
     aux = (int*) malloc(tamanho * sizeof(int));
