@@ -8,6 +8,6 @@
 using namespace std; // para utilizar cout
 
 int main(){
-    
+
     return 0;
 }
