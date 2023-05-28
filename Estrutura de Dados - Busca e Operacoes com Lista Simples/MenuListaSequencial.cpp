@@ -232,23 +232,8 @@ int main(){
     //Variáveis
     int funcaoDesejada = 1;
  
-    //Lista Sequencial Inicial com tamanho 1 e vazia
-    //pessoa *copiaListaSequencial = new pessoa[1];
- 
-    //Dois registros de exemplo
-    /*
-    copiaListaSequencial[0].nome = "John";
-    copiaListaSequencial[0].rg = 123;
- 
-    copiaListaSequencial[1].nome = "Maicon";
-    copiaListaSequencial[1].rg = 123;
-    */
- 
     //Lista Sequencial Inicial
     pessoa *ponteiroSequencial;
- 
-    //Aponta para a lista inicial vazia
-    //ponteiroSequencial = copiaListaSequencial;
  
     //Tamanho inicial da lista
     int tamanhoDaListaSequencial = 0;
